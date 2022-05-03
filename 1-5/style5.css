@@ -1,0 +1,122 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*a {*/
+/*  text-decoration: none;*/
+/*}*/
+
+header {
+  width: 100%; /*横幅*/
+  padding: 20px 0;  /*内側余白*/
+  margin: 0 auto;  /*外側余白*/
+  text-align: center;  /*中央揃え*/
+}
+
+.nav-list {
+  text-align: center;  /*中央揃え*/
+  padding: 15px 20px;  /*内側余白*/
+  margin: 0 auto;  /*外側余白*/
+  border-top: 1px solid gray;  /*枠線：solid(実線）*/
+  border-bottom: 1px solid gray;  /*枠線：solid(実線）*/
+}
+
+.nav-list-item {
+  list-style: none;  /*リスト先頭マークなし*/
+  display: inline-block;   /*要素の表示インラインブロック(横並び）*/
+  margin: 0 20px;  /*外側余白*/
+}
+
+.main {
+  width: 800px; /*横幅*/
+  margin: 50px auto; /*外側余白　上下50px　左右auto*/
+  display: flex; /* Flexboxの利用 */
+  flex-wrap: wrap;  /*フレックスアイテム複数行*/
+}
+
+.box1 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color: #e6ffe9; /*色*/
+}
+
+.box2 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color: #cbffd3; /*色*/
+}
+
+.box3 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color: #aeffbd; /*色*/
+}
+
+.box4 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color: #93ffab; /*色*/
+}
+
+.box5 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color: #f3ffd8; /*色*/
+}
+
+.box6 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color: #edffbe; /*色*/
+}
+
+.box7 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color: #e9ffa5; /*色*/
+}
+
+.box8 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color: #e4ff8d; /*色*/
+}
+
+.box9 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color:#d9e5ff; /*色*/
+}
+
+.box10 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color: #bad3ff; /*色*/
+}
+
+.box11 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color: #a4c6ff; /*色*/
+}
+
+.box12 {
+  width: 200px; /*横幅*/
+  height: 200px; /*高さ*/
+  background-color: #8eb8ff; /*色*/
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}
